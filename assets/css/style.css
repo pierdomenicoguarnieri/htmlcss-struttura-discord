@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.debug{
+  background-color: rgba(255, 0, 0, 0.5);
+  border: 1px solid black;
+}
+
+.container{
+  width: 80%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+}
+
+header{
+  display: flex;
+  margin: 10px 0;
+  padding: 10px 10px;
+  background-color: #DAA520;
+  border: 1px solid black;
+}
+
+.header-section{
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ADD8E6;
+}
+
+.header-section .container nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.header-section .container nav ul li:not(:last-child){
+  margin-right: 15px;
+}
+
+.header-section .container nav ul li a{
+  color: black;
+  text-decoration: none;
+}
+
+.header-section .container nav{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.header-section .container .logo{
+  width: 25%;
+}
+
+.header-section .container .button{
+  width: 25%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.jumbotron{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 20px 0 5px 0;
+  height: 500px;
+  background-color: #00008B;
+}
+
+.jumbotron .jumbotron-content{
+  width: 50%;
+  height: 80%;
+  background-color: #EE82EE;
+}
