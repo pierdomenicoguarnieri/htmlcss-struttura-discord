@@ -169,7 +169,7 @@ footer .bottom-footer{
   background-color: #7FFFD4;
 }
 
-footer .bottom-footer .logo, .button{
+footer .bottom-footer .logo, footer .bottom-footer .button{
   padding: 5px;
   background-color: #FFB6C1;
 }
