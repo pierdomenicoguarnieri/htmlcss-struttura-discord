@@ -9,13 +9,20 @@
   border: 1px solid black;
 }
 
+.header-section .container{
+  flex-direction: column;
+}
+
 .container{
   width: 80%;
   max-width: 1170px;
   margin: 0 auto;
   display: flex;
   align-content: flex-start;
-  flex-direction: column;
+}
+
+section{
+  min-height: 500px;
 }
 
 header{
@@ -26,11 +33,14 @@ header{
   border: 1px solid black;
 }
 
-.header-section{
-  min-height: 600px;
+section.header-section{
   display: flex;
   flex-direction: column;
   background-color: #ADD8E6;
+}
+
+section:nth-child(2n+3){
+  background-color: #D3D3D3;
 }
 
 .header-section .container nav ul{
@@ -78,4 +88,38 @@ header{
   width: 50%;
   height: 80%;
   background-color: #EE82EE;
+}
+
+.section-with-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-content{
+  display: flex;
+  width: 70%;
+  height: 400px;
+  background-color: #1E90FF;
+}
+
+.right-content{
+  display: flex;
+  width: 30%;
+  height: 400px;
+  background-color: #FFC0CB;
+}
+
+.bigger-right.right-content{
+  display: flex;
+  width: 70%;
+  height: 400px;
+  background-color: #1E90FF;
+}
+
+.bigger-right.left-content{
+  display: flex;
+  width: 30%;
+  height: 400px;
+  background-color: #FFC0CB;
 }
